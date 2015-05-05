@@ -1,12 +1,13 @@
 # NetInfExps
 Network inference experiments - Thesis Lopes 2015 (chapter 5)
-(missing "causal direction experiments" - to add)
+
+(missing causal direction experiments - to add)
 
 ### File netinf.tar.gz
 Scripts and data for the experiments described in Lopes 2015 (PhD Thesis), in particular the network inference experiments described in chapter 5.
 
 Necessary packages: 
-Pranker ( https://github.com/miguelaglopes/pranker )
+Pranker ( https://github.com/miguelaglopes/pranker ),
 GCnetinf ( https://github.com/miguelaglopes/GCnetinf )
 which in turn require the packages: Rcpp, tseries, ppcor, randomForest and lars
 R packages GeneNet, simone and g1dbn are also required. 
