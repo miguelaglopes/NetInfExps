@@ -20,18 +20,18 @@ The other dataset is of simulated GeneNetWeaver time series. It consists on 100 
 The two experiments follows the same script pattern. Each script generates a .Rdata file which is used by the next script. 
 
 For the preparation of the datasets:    
-source("GNWdata.R")  
-source("YEASTdata.R")  
+**source("GNWdata.R")**  
+**source("YEASTdata.R")**  
 
-Generation of the networks for network inference (only on the yeast experiment). As it depends on a random generation of networks, the ouput file used in the thesis experiments is also provided ("YEASTinf-data.Rdata"). 
-source("YEASTinf-data.R")  
+Generation of the networks for network inference (only on the yeast experiment). As it depends on a random generation of networks, the ouput file used in the thesis experiments is also provided ("YEASTinf-data.Rdata").  
+**source("YEASTinf-data.R")**  
 
-Scripts for network inference   
-source("GNWinf.R")  
-source("YEASTinf.R")  
+Scripts for network inference:  
+**source("GNWinf.R")**    
+**source("YEASTinf.R")**    
 
 Network inference assessment (note: in the yeast case, a montecarlo AUPRC simulation is also provided, file "auprc.montecarlo.Rdata")  
-source("GNWassess.R")  
-source("YEASTassess.R")  
+**source("GNWassess.R")**    
+**source("YEASTassess.R")**    
 
 Each file ouputs pdf files, which are also provided
