@@ -34,4 +34,4 @@ Network inference assessment (note: in the yeast case, a montecarlo AUPRC simula
 **source("GNWassess.R")**    
 **source("YEASTassess.R")**    
 
-Each file ouputs pdf files, which are also provided
+Each file ouputs pdf files, which are also provided.
